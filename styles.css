@@ -3,5 +3,43 @@
     height: 25px;
 }
 .cards{
-    width: 300px;
+    width: 276px;
+}
+.proof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-card-text{
+    font-size: 12px;
+    font-weight: 600;
+}
+.span-text{
+    background-color: #EAEAEA;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.span-div{
+    margin: 0px 0px -8px;
+    padding: 8px 0px;
+}
+.borders{
+    border-radius: 5px;
+}
+.border-img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.aria{
+    font-size: 18px;
+}
+.span-text-red{
+    background-color: #EAEAEA;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    color: #D0021b;
 }
