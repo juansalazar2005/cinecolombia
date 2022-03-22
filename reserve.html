@@ -95,7 +95,7 @@
                 </div>
             </div>
             <!--Fila 4-->
-            <div class="class row justify-content-center mt-3">                
+            <div class="class row justify-content-center mt-3">
                 <div class="col-1">
                     <img src="img/cinema-chair.png" alt="" class="img-fluid w-100">
                 </div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <!--Fila 5-->
-            <div class="class row justify-content-center mt-3">                
+            <div class="class row justify-content-center mt-3">
                 <div class="col-1">
                     <img src="img/cinema-chair.png" alt="" class="img-fluid w-100">
                 </div>
@@ -143,21 +143,38 @@
             <div class="row justify-content-center">
                 <div class="col-6 border p-5 my-5 shadow">
                     <form>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <select class="form-select mb-4" aria-label="Default select example" id="selectPelicula">
+                            <option selected>Seleccionar película</option>
+                            <option value="batman">Batman</option>
+                            <option value="uncharted">Uncharted: fuera del mapa</option>
+                            <option value="princesa">Princesa por accidente</option>
+                            <option value="justiciero">El Justiciero</option>
+                            <option value="belfast">Belfast</option>
+                            <option value="libroAmor">EL Libro del Amor</option>
+                            <option value="callejonAlmas">El Callejón De Las Almas Perdidas</option>
+                            <option value="swordArt">Sword Art Online Progressive: Aria de una noche sin estrellas</option>
+                            <option value="padrino">El Padrino</option>
+                            <option value="licoricePizza">Licorice Pizza</option>
+                        </select>
+                        <select class="form-select mb-4" aria-label="Default select example" id="asiento">
+                            <option selected>Tipo de asiento</option> 
+                            <option value="preferencial">Preferencial</option>
+                            <option value="estandar">Estándar</option>
+                        </select>
+                        <div class="mb-3 mt-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp">
+                        <div class="mb-3 mt-3">
+                            <label for="exampleInputPassword1" class="form-label">Cantidad</label>
+                            <input type="number" class="form-control" id="cantidad">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputPassword1" class="form-label">Edad</label>
+                            <input type="number" class="form-control" id="edad">
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form>
+                        <button type="button" class="btn btn-primary mt-3 w-100" id="button">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -168,7 +185,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <script src="reserves.js"></script>
+    <script src="reserves.js"></script>
 </body>
 </body>
 
